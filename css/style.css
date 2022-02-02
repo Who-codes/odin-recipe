@@ -6,7 +6,7 @@
 
 img{
     width: 100%;
-    min-width: 250px;
+    border-radius: 10%;
 }
 
 body{
@@ -15,33 +15,33 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    height: 100vh;
-    overflow-y: hidden;
     color: #fff;
+    padding: 2em 0;
 }
 
 h1{
     text-align: center;
-    font-size: 5em;
-    margin-top: 2em;
+    font-size: 4em;
+    margin: 0.5em 0;
 }
 
 p{
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 ul{
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    place-content: center;
     gap: 1em;
-    place-items: center;
+    text-align: center;
 }
 
 li a{
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 2em;
     text-decoration: none;
     color: #fff;
 }
+

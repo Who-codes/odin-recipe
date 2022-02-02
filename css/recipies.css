@@ -25,16 +25,27 @@ body{
 }
 
 h1{
-    font-size: 5em;
-}
-
-h2{
     font-size: 4em;
 }
 
+h2{
+    font-size: 3em;
+}
+
 ul{
+    list-style: none;
 }
 
 li, p{
-    font-size: 3em;
+    font-size: 2em;
+}
+
+.flex{
+    display: flex;
+    gap: 3em;
+    align-items: flex-start;
+}
+
+li + li{
+    margin-top: 0.5em;
 }
